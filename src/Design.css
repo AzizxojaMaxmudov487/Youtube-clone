@@ -1,0 +1,118 @@
+body{
+    background-color: #181818;
+    overflow-x: hidden;
+}
+.logoBrand{
+    width: 150px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+input{
+    width: 50%;
+    background-color: #121212;
+    padding: 15px;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+}
+.profile{
+    margin-left: 20px;
+}
+.profile > img{
+    width: 40px;
+    border-radius: 50px;
+}
+.functions{
+    cursor: pointer;
+}
+.noResult{
+    color: #fff;
+    font-family: monospace;
+    font-size: 20px;
+}
+.videoMain{
+    display: flex;
+    justify-content: space-around;
+}
+
+iframe{
+    width: 850px;
+    height: 500px;
+}
+.videoSec{
+    padding: 0 20px;
+}
+.videoLists > div{
+    float: right;
+    width: 80%;
+}
+
+.videoLike{
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    /* background-color: ; */
+    display: flex;
+    align-items:center;
+}
+
+.like{
+    font-size: 30px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.like i {
+    color: #fff;
+    font-size: 33px;
+}
+#Liked i {
+    color: red;
+}
+.like span{
+    font-size: 23px;
+    color: #fff;
+}
+.dislike{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#dislike i {
+    color: red;
+}
+.dislike i {
+    color: #fff;
+    font-size: 33px;
+}
+.dislike span{
+    font-size: 23px;
+    color: #fff;
+}
+.videoInfo > .channelTitle, .titleVideo{
+    color: #fff;
+    font-family: system-ui;
+}
+.descriptionVideo{
+    color: #Fff;
+    font-family: system-ui;
+    width: 75%;
+}
+.videoItems{
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 0 15px;
+}
+.channelPublish{
+    color: yellow;
+}
